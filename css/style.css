@@ -8,15 +8,17 @@ body {
 }
 
 header {
-    background-color: #0264a5;
-    color: #fff;
-    padding: 20px;
+    background: url(/img/medicos2.jpg)no-repeat;
+    background-size: cover;
+    padding: 50px;
 }
 
 h1,h2 {
-    margin-top: 20px;
+    margin-top: 10px;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: #000000;
 }
 
 main {
@@ -109,4 +111,22 @@ th {
 
 .listado-servicios li::marker {
     content: 🐾;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    color: #ccc;
+    }
+    
+    .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(8, 252, 0, 0.2);
+    z-index: 1;
+    }
+    
+    .dropdown:hover .dropdown-content {
+    display: block;
 }
