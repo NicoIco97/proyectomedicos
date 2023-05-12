@@ -13,10 +13,10 @@ header {
     padding: 20px;
 }
 
-h1,
-h2 {
+h1,h2 {
     margin-top: 20px;
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 main {
