@@ -16,7 +16,7 @@ header {
 h1,h2 {
     margin-top: 10px;
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: arial black;
     font-size: 30px;
     color: #000000;
 }
@@ -24,6 +24,7 @@ h1,h2 {
 main {
     max-width: 500px;
     margin: auto;
+    font-family: Lucida;
 }
 
 label {
